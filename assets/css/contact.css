@@ -1,0 +1,30 @@
+main {
+  width: 1920px;
+  margin: 0 auto;
+}
+.contact {
+  display: block;
+  margin-bottom: 150px;
+}
+.title {
+  text-align: center;
+}
+.contact-block {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+}
+.text-block {
+  display: block;
+}
+.none-decor {
+  text-decoration: none;
+  color: black;
+}
+.map {
+  display: flex;
+  justify-content: center;
+  border-radius: 12px;
+}
