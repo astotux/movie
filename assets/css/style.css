@@ -1,0 +1,35 @@
+:root {
+    --color-black: #191919;
+    --color-aliceblue: aliceblue;
+}
+body{
+    font-family: "Fira Sans", sans-serif;
+}
+.header{
+    background-color: var(--color-black);
+    text-align: center;
+    height: 104px;
+    padding-top: 32px;
+    width: 100%;
+
+}
+nav {
+    width: 100%;
+}
+.header ul {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 49px;
+}
+a{
+    color: var(--color-aliceblue);
+    font-weight: 600;
+    font-size: 16px;
+    
+}
+.logo_header{
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+}
+
