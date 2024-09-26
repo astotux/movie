@@ -33,6 +33,7 @@
 .title-cont{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 100px;
 }
 .title-cont div{
     display: flex;
@@ -87,7 +88,69 @@
     left: 25px;
     bottom: 25px;
     font-family: "EB Garamond", sans-serif;
-z-index: 2;
+    z-index: 2;
+}
+.section_bottom_cards{
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+    margin-bottom: 150px;
+}
+.section_bottom_card{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.section_bottom_card_p1{
+    background-color: #05B093;
+    padding: 16px 25px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.section_bottom_card_p2{
+    font-size: 14px;
+    font-family: "Fira Sans", sans-serif;
+}
+.afisha-item {
+    color: var(--color-black);
+    padding: 0 30px;
+    background-color: var(--color-gray);
+    width: 1300px;
+    height: 300px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.afisha-date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 0px;
+    font-family: "EB Garamond", sans-serif;
+    font-size: 32px;
+}
+.afisha-date span {
+    font-size: 64px;
+    
+}
+.afisha-img {
+    width: 320px;
+    border-radius: 16px;
+    height: 240px;
+}
+.afisha-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 30px;
+}
+.afisha-title {
+    font-family: "EB Garamond", sans-serif;
+
 font-size: 32px;
 font-weight: 700;
 line-height: 44.8px;
@@ -126,8 +189,6 @@ text-align: left;
     color: white;
     border-radius: 10px;
 }
-.right-cont {
-}
 .table {
     display: flex;
 
@@ -143,4 +204,68 @@ text-align: left;
 .active {
     background-color: var(--color-total-gray);
 
+
+}
+.afisha-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+.afisha-info-bottom {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.afisha-bottom-text {
+font-size: 16px;
+font-weight: 400;
+line-height: 22.4px;
+text-align: left;
+
+}
+.button-green {
+    padding: 15px 25px;
+    border-radius: 100px;
+    background: var(--color-green);
+}
+.afisha {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    margin-bottom: 100px;
+}
+
+.news-title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 67.2px;
+    text-align: left;
+    margin-bottom: 60px;
+}
+.news-cont img{
+    width: 306px;
+    height: 204px;
+    border-radius: 12px 0px 0px 0px;
+    opacity: 0px;
+    margin-bottom: 32px;
+}
+.news-info{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33.6px;
+    text-align: left;
+    margin-bottom: 24px;
+}
+.news-cont div p{
+    width: 306px;
+}
+.left-cont{
+    display: flex;
+    gap: 24px;
 }
