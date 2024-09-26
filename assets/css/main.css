@@ -52,8 +52,6 @@
     line-height: 33.6px;
     text-align: left;
 }
-<<<<<<< HEAD
-
 .section_bottom_cards{
     display: flex;
     margin-top: 100px;
@@ -76,7 +74,7 @@
 .section_bottom_card_p2{
     font-size: 14px;
     font-family: "Fira Sans", sans-serif;
-=======
+}
 .afisha-item {
     color: var(--color-black);
     padding: 0 30px;
@@ -183,5 +181,4 @@ text-align: left;
 .left-cont{
     display: flex;
     gap: 24px;
->>>>>>> 8069fe1b89fdc20afc0b7ea7aeb5569f75d78a2e
 }
