@@ -31,6 +31,7 @@
 }
 
 .title-cont{
+    margin-top: 200px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 100px;
@@ -89,6 +90,8 @@
     bottom: 25px;
     font-family: "EB Garamond", sans-serif;
     z-index: 2;
+    color: white;
+    font-size: 32px;
 }
 .section_bottom_cards{
     display: flex;
@@ -150,12 +153,11 @@
 }
 .afisha-title {
     font-family: "EB Garamond", sans-serif;
-
-font-size: 32px;
-font-weight: 700;
-line-height: 44.8px;
-text-align: left;
-color: white;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44.8px;
+    text-align: left;
+    color: black;
 
 }
 .bottom-cont {
@@ -265,7 +267,7 @@ text-align: left;
 .news-cont div p{
     width: 306px;
 }
-.left-cont{
+.left-cont-news{
     display: flex;
     gap: 24px;
 }
