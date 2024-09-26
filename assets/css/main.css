@@ -51,3 +51,27 @@
     line-height: 33.6px;
     text-align: left;
 }
+
+.section_bottom_cards{
+    display: flex;
+    margin-top: 100px;
+    gap: 24px;
+    margin-bottom: 150px;
+}
+.section_bottom_card{
+    display: flex;
+    align-items: center;
+    gap: 27px;
+}
+.section_bottom_card_p1{
+    background-color: #05B093;
+    padding: 16px 25px;
+    text-align: center;
+    color: white;
+    border-radius: 12px;
+    font-size: 18px;
+}
+.section_bottom_card_p2{
+    font-size: 14px;
+    font-family: "Fira Sans", sans-serif;
+}
