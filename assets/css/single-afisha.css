@@ -1,0 +1,61 @@
+main{
+    background-color: EDEDED;
+}
+.section_singl_afisha1{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    gap: 134px;
+    margin-bottom: 150px;
+}
+
+.singl_afisha_h1{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 48px;
+    font-family: "EB Garamond", sans-serif;
+}
+.section_singl_afisha1 img{
+    max-width: 526px;
+}
+.singl_afisha_p1{
+    font-family: "EB Garamond", sans-serif;
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+.singl_afisha_p2{
+    font-size: 16px;
+
+}
+.singl_afisha_p3{
+    margin-top: 40px;
+}
+.singl_afisha_p4{
+    margin-top: 40px;
+    font-family: "EB Garamond", sans-serif;
+    font-size: 24px ;
+}
+.singl_afisha_p5{
+    margin-top: 24px;
+}
+.singl_afisha_p6{
+    margin-top: 40px;
+    font-family: "EB Garamond", sans-serif;
+    font-size: 24px ;
+}
+.singl_afisha_p7{
+    margin-top: 24px;
+}
+.singl_afisha_button{
+    background-color: #05B093;
+    padding: 15px 30px ;
+    color: white;
+    border-radius: 50px;
+    margin-top: 40px;
+}
+
+.singl_afisha_div{
+    margin-top: 40px;
+    display: flex;
+    gap: 24px;
+}
